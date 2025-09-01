@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <TB_PRODUTOS ID="770e8400-e29b-41d4-a716-446655440001" 
+                 NOME="Smartphone XYZ" 
+                 DESCRICAO="Smartphone com 128GB de armazenamento" 
+                 PRECO="899.99" 
+                 CATEGORIA="Eletrônicos" 
+                 QUANTIDADE_ESTOQUE="50" 
+                 DATA_CADASTRO="2024-01-01 10:00:00" 
+                 DATA_ATUALIZACAO="2024-01-01 10:00:00"/>
+                 
+    <TB_PRODUTOS ID="770e8400-e29b-41d4-a716-446655440002" 
+                 NOME="Notebook ABC" 
+                 DESCRICAO="Notebook para trabalho e estudos" 
+                 PRECO="2499.99" 
+                 CATEGORIA="Eletrônicos" 
+                 QUANTIDADE_ESTOQUE="20" 
+                 DATA_CADASTRO="2024-01-01 11:00:00" 
+                 DATA_ATUALIZACAO="2024-01-01 11:00:00"/>
+                 
+    <TB_PRODUTOS ID="770e8400-e29b-41d4-a716-446655440003" 
+                 NOME="Camiseta Basic" 
+                 DESCRICAO="Camiseta 100% algodão" 
+                 PRECO="39.99" 
+                 CATEGORIA="Roupas" 
+                 QUANTIDADE_ESTOQUE="100" 
+                 DATA_CADASTRO="2024-01-01 12:00:00" 
+                 DATA_ATUALIZACAO="2024-01-01 12:00:00"/>
+</dataset>

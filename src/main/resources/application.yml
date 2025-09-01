@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: docker
+  
+  application:
+    name: ecommerce-api
+
+server:
+  port: 8080

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <TB_CLIENTE ID="660e8400-e29b-41d4-a716-446655440001" 
+                NOME="João Silva" 
+                EMAIL="joao@email.com" 
+                TELEFONE="11999999999" 
+                CPF="12345678901" 
+                DATA_NASCIMENTO="1990-01-15" 
+                DATA_CADASTRO="2024-01-01 10:00:00" 
+                DATA_ATUALIZACAO="2024-01-01 10:00:00"/>
+                
+    <TB_CLIENTE ID="660e8400-e29b-41d4-a716-446655440002" 
+                NOME="Maria Santos" 
+                EMAIL="maria@email.com" 
+                TELEFONE="11888888888" 
+                CPF="98765432109" 
+                DATA_NASCIMENTO="1985-05-20" 
+                DATA_CADASTRO="2024-01-02 11:00:00" 
+                DATA_ATUALIZACAO="2024-01-02 11:00:00"/>
+</dataset>

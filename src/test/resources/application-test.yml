@@ -1,0 +1,40 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+    
+  jpa:
+    hibernate:
+      ddl-auto: none
+      dialect: org.hibernate.dialect.H2Dialect
+      id:
+        new_generator_mappings: false
+    show-sql: true
+    properties:
+      hibernate:
+        type:
+          preferred_uuid_jdbc_type: VARCHAR
+        format_sql: true
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-test.sql
+        
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.springframework.security: DEBUG
+    br.com.nathan.ecommerce: DEBUG
+
+api:
+  security:
+    token:
+      secret: test-secret-key-for-jwt-token-generation

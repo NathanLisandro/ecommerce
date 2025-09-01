@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <TB_USER ID="550e8400-e29b-41d4-a716-446655440001" LOGIN="admin" PASSWORD="$2a$10$Vgemx5Hy2ZzQzQGN9s78JOBxKN74XrJJDZZAX.i/dgBNaIfJwaZ.C" ROLE="ADMIN"/>
+    <TB_USER ID="550e8400-e29b-41d4-a716-446655440002" LOGIN="user" PASSWORD="$2a$10$Vgemx5Hy2ZzQzQGN9s78JOBxKN74XrJJDZZAX.i/dgBNaIfJwaZ.C" ROLE="USER"/>
+    
+
+</dataset>
